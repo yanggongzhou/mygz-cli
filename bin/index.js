@@ -28,6 +28,14 @@ program.name(name)
                     console.error(err) :
                     spinner.succeed();
             })
+        } else if (templateName === "vue2-landpage") {
+            const spinner = ora(`clone ${templateName} ...`);
+            spinner.start();
+            download('github:yanggongzhou/init-landpage', projectName, {},function (err) {
+                err ?
+                    console.error(err) :
+                    spinner.succeed();
+            })
         } else {
             console.error('A template name that does not exist')
         }
