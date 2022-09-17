@@ -1,4 +1,4 @@
-const program = require('commander');
+const { program } = require('commander');
 const download = require('download-git-repo');
 const question = require('./questions');
 const ora = require('ora');
