@@ -12,7 +12,7 @@ const questions = [
         type:"list",
         name: 'templateName',
         message: '选择模版',
-        choices:[ "vue2-landpage" , "vue3-template", "react-template" ],
+        choices:[ "vue2-landpage" , "vue3-template", "react-template", "multi-page-template" ],
     },
 ];
 

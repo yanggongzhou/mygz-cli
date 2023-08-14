@@ -1,5 +1,6 @@
 # mygz-cli
-简陋的脚手架用来安装vue3-template react-template 
+1. 简陋的脚手架用来安装 vue3-template react-template
+2. 20230814新增 multi-page-template 多页面react模版
 
 ## 安装
 ```
